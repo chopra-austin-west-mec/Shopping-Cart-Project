@@ -1,13 +1,13 @@
 id,Gpu name,ratting,MANUFACTURER,PART #,INTERFACE,CHIPSET,MEMORY SIZE,MEMORY TYPE,CORE CLOCK,TDP,FAN,SLI SUPPORT,CROSSFIRE SUPPORT,SUPPORTS FREESYNC,LENGTH,DVI-I DUAL-LINK,MINI-DISPLAY PORT,DISPLAYPORT,HDMI,Availability,Total
 1,XFX Radeon R9 295X2 8GB Core Edition Video Card,5.0 Average,XFX,R9-295X-8QFA,PCI-Express x16,Radeon R9 295X2,8GB,GDDR5,1.02Ghz,500 Watts,"Yes, water cooled",no,yes,no,"12.01"" (305mm)",1,4,0,0,yes ,"$1,981.13 "
 2,MSI Radeon HD 7970 3GB Video Card,5.0 Average ,MSI,R7970-2PMD3GD5/OC,PCI-Express x16,Radeon HD 7970,3GB,GDDR5,1.01 Ghz,250 Watts,yes,no,4-way CrossFire,no,"10.83"" (275mm)",1,2,0,1,yes ,$773.64 
-3,MSI Radeon R9 Fury X 4GB Video Card,N/A,MSI,V803-001R,PCI-Express x16,Radeon R9 Fury X,4GB,HBM,1.05 Ghz,275 Watts,"Yes, water cooled",no,4-way CrossFire,yes,"7.68"" (195mm)",0,0,3,1,yes ,$666.98 
+#3,MSI Radeon R9 Fury X 4GB Video Card,N/A,MSI,V803-001R,PCI-Express x16,Radeon R9 Fury X,4GB,HBM,1.05 Ghz,275 Watts,"Yes, water cooled",no,4-way CrossFire,yes,"7.68"" (195mm)",0,0,3,1,yes ,$666.98 
 4,Diamond Radeon R9 290X 4GB Video Card,N/A,Diamond,R9290XD54G,PCI-Express x16,Radeon R9 290X,4GB,GDDR5,947 MHz,300 Watts,yes,no,4-way CrossFire,no,"10.79"" (274mm)",2,0,1,1,yes ,$641.81 
 5,MSI Radeon R9 290X 4GB LIGHTNING Video Card,5.0 Average ,MSI,R9 290X LIGHTNING,PCI-Express x16,Radeon R9 290X,4GB,GDDR5,1.08Ghz,300 Watts,yes,no,4-way CrossFire,no,"11.89"" (302mm)",2,0,1,1,yes ,$625.06 
-6,VisionTek Radeon R9 Nano 4GB Video Card,N/A,VisionTek,900829,PCI-Express x16,Radeon R9 Nano,4GB,HBM,1.0GHz,175 Watts,yes,no,4-way CrossFire,yes,"6.02"" (153mm)",0,0,3,1,yes ,$582.06 
-7,XFX Radeon R9 Fury 4GB Triple Dissipation Video Card,N/A,XFX,R9-FURY-4TF9,PCI-Express x16,Radeon R9 Fury,4GB,HBM,1.0GHz,275 Watts,yes,no,4-way CrossFire,yes,"12.40"" (315mm)",0,0,3,1,yes ,$514.98 
+#6,VisionTek Radeon R9 Nano 4GB Video Card,N/A,VisionTek,900829,PCI-Express x16,Radeon R9 Nano,4GB,HBM,1.0GHz,175 Watts,yes,no,4-way CrossFire,yes,"6.02"" (153mm)",0,0,3,1,yes ,$582.06 
+#7,XFX Radeon R9 Fury 4GB Triple Dissipation Video Card,N/A,XFX,R9-FURY-4TF9,PCI-Express x16,Radeon R9 Fury,4GB,HBM,1.0GHz,275 Watts,yes,no,4-way CrossFire,yes,"12.40"" (315mm)",0,0,3,1,yes ,$514.98 
 8,MSI Radeon R9 290X 4GB TWIN FROZR Video Card,4.8,MSI,912-V308-001,PCI-Express x16,Radeon R9 290X,4GB,GDDR5,1.04Ghz,300 Watts,yes,no,4-way CrossFire,no,"10.87"" (276mm)",2,0,1,1,yes ,$495.02 
-9,Asus Radeon R9 390 8GB Video Card,n/a,Asus,R9390-DC2-8GD5,PCI-Express x16,Radeon R9 390,8GB,GDDR5,1.0GHz,275 Watts,yes,no,4-way CrossFire,yes,"11.30"" (287mm)",2,0,1,1,yes ,$481.92 
+#9,Asus Radeon R9 390 8GB Video Card,n/a,Asus,R9390-DC2-8GD5,PCI-Express x16,Radeon R9 390,8GB,GDDR5,1.0GHz,275 Watts,yes,no,4-way CrossFire,yes,"11.30"" (287mm)",2,0,1,1,yes ,$481.92 
 10,,,,,,,,,,,,,,,,,,,,,
 11,,,,,,,,,,,,,,,,,,,,,
 12,,,,,,,,,,,,,,,,,,,,,
