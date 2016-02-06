@@ -11,13 +11,13 @@
     <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="images/loginCSS.css">
+    <link rel="stylesheet" href="loginCSS.css">
     
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <?php
 try {
-    $dbh = new PDO('mysql:host=127.0.0.1;dbname=shopingCart', 'root', '');
+    $dbh = new PDO('mysql:host=127.0.0.1;dbname=Checkout', 'root', 'root');
 
 } catch (PDOException $e) {
     print "Error!: " . $e->getMessage() . "<br/>";
@@ -69,20 +69,8 @@ if(@$_POST['formSubmit'] == "Submit")
 }
 
 
-?><!DOCTYPE html>
+?>
 
-<html>
-<head>
-    <title>Home</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/css.css">
-	
-    <link href="http://cdn3.bigcommerce.com/r-7d6a638493d37a4bbc33fd4fe15b95d62daf0227/themes/Clarity2/Styles/styles.css" media="all" type="text/css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	
-</head>
 
 <body>
 <nav class="navbar navbar-inverse">
@@ -93,7 +81,7 @@ if(@$_POST['formSubmit'] == "Submit")
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">GPUs And More</a>
+      <a class="navbar-brand" href="index.html">GPUs And More</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -166,12 +154,6 @@ if(@$_POST['formSubmit'] == "Submit")
 <div id="contact" class="container-fluid bg-grey">
     <h2 class="text-center">CONTACT</h2>
     <div class="row">
-        <div class="col-sm-5">
-            <p>Contact us and we'll get back to you within 24 hours.</p>
-            <p><span class="glyphicon glyphicon-map-marker"></span> Glendale, AZ</p>
-            <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-            <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
-        </div>
         <div class="col-sm-7 slideanim">
             <div class="row">
                 <div class="col-sm-6 form-group">
@@ -187,6 +169,12 @@ if(@$_POST['formSubmit'] == "Submit")
                     <button class="btn btn-default pull-right" type="submit">Send</button>
                 </div>
             </div>
+        </div>
+		<div class="col-sm-5">
+            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Glendale, AZ</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
         </div>
     </div>
 </div>

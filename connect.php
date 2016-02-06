@@ -1,6 +1,6 @@
 <?php
 try {
-    $dbh = new PDO('mysql:host=localhost;dbname=shopingCart', 'root', '');
+    $dbh = new PDO('mysql:host=localhost;dbname=shopingCart', 'root', 'root');
 } catch (PDOException $e) {
     print "Error!: " . $e->getMessage() . "<br/>";
     die();

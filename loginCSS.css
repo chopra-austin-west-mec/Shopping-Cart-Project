@@ -18,8 +18,8 @@ h4 {
     margin-bottom: 30px;
 }
 .jumbotron {
-    background-color: orange;
-    color: #fff;
+    background-color: white;
+    color: black;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
 }
@@ -30,11 +30,11 @@ h4 {
     background-color: #f6f6f6;
 }
 .logo-small {
-    color: orange;
+    color: white;
     font-size: 50px;
 }
 .logo {
-    color: orange;
+    color: white;
     font-size: 200px;
 }
 .thumbnail {
@@ -49,13 +49,13 @@ h4 {
 }
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: darkorange;
+    color: darkwhite;
 }
 .carousel-indicators li {
-    border-color: orange;
+    border-color: pink;
 }
 .carousel-indicators li.active {
-    background-color: orange;
+    background-color: white;
 }
 .item h4 {
     font-size: 19px;
@@ -76,13 +76,13 @@ h4 {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 .panel-footer .btn:hover {
-    border: 1px solid orange;
+    border: 1px solid white;
     background-color: #fff !important;
-    color: orange;
+    color: white;
 }
 .panel-heading {
     color: #fff !important;
-    background-color: orange !important;
+    background-color: white !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -102,12 +102,12 @@ h4 {
 }
 .panel-footer .btn {
     margin: 15px 0;
-    background-color: orange;
+    background-color: white;
     color: #fff;
 }
 .navbar {
     margin-bottom: 0;
-    background-color: darkorange;
+    background-color: darkwhite;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -130,7 +130,7 @@ h4 {
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: orange;
+    color: white;
 }
 .slideanim {visibility:hidden;}
 .slide {
