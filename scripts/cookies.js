@@ -14,7 +14,19 @@ function isFirstTime() {
   else{
     console.log("this is their first time");
     document.cookie = "firstTime=NO";
-    document.cookie = "numberOfCookies=0";
+    document.cookie = "userId=" + (Math.random() * 2 / 3 * 45);
+    
+    document.cookie = "product_1=0";
+    document.cookie = "product_2=0";
+    document.cookie = "product_3=0";
+    document.cookie = "product_4=0";
+    document.cookie = "product_5=0";
+    document.cookie = "product_6=0";
+    document.cookie = "product_7=0";
+    document.cookie = "product_8=0";
+    document.cookie = "product_9=0";
+    document.cookie = "product_10=0";
+    document.cookie = "product_11=0";
   }
 }
 
@@ -58,49 +70,4 @@ function breakCookie(productValues) {
       addProductCookies(values[0],values[1],values[2],values[3],productNumber);
     }
   }
-}
-
-function addProductCookies(productName,description,dateOfPurchase,expirationDate,productNumber) {
-  
-  var createTable = document.createElement("TR");
-  createTable.setAttribute("id","'table" + productNumber + "'");
-  
-  var node = document.createElement("TD");
-  var textnode = document.createTextNode(productName);
-  node.appendChild(textnode);
-  createTable.appendChild(node);
-  document.getElementById("productListTable").appendChild(createTable);
-  
-  var node = document.createElement("TD");
-  var textnode = document.createTextNode(description);
-  node.appendChild(textnode);
-  createTable.appendChild(node);
-  document.getElementById("productListTable").appendChild(createTable);
-  
-  var node = document.createElement("TD");
-  var textnode = document.createTextNode(dateOfPurchase);
-  node.appendChild(textnode);
-  createTable.appendChild(node);
-  document.getElementById("productListTable").appendChild(createTable);
-  
-  var node = document.createElement("TD");
-  var textnode = document.createTextNode(expirationDate);
-  node.appendChild(textnode);
-  createTable.appendChild(node);
-  document.getElementById("productListTable").appendChild(createTable);
-  
-  var node = document.createElement("TD");
-  var htmlNode = document.createElement('button');
-  var textnode = document.createTextNode('X');
-  htmlNode.appendChild(textnode);
-  node.appendChild(htmlNode);
-  var ButtonOnClick = htmlNode.setAttribute("onClick", 'removeProduct(' + "'" + productNumber + "'" +')');
-  createTable.appendChild(node);
-  document.getElementById("productListTable").appendChild(createTable);
-
-}
-
-function addCookies(productName,description,dateOfPurchase,expirationDate,numberOfCookies){
-  console.log("adding cookies");
-  document.cookie="product" + numberOfCookies + "=" + productName + ", " + description + ", " + dateOfPurchase + ", " + expirationDate;
 }

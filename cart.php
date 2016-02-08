@@ -6,14 +6,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/css.css" type="text/css">
 	
     <link href="http://cdn3.bigcommerce.com/r-7d6a638493d37a4bbc33fd4fe15b95d62daf0227/themes/Clarity2/Styles/styles.css" media="all" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="scripts/cookies.js"></script>
+	<script src="scripts/application.js"></script>
 	
 </head>
 
-<body>
+<body onload="isFirstTime()">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -22,7 +24,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">GPUs And More</a>
+      <a class="navbar-brand" href="index.html">GPUs And More</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -50,5 +52,18 @@
         <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
-  </div>
+  </div> 
 </nav>
+<br>
+<br> 
+<center>
+	<table border="1" width="100%">
+		<tr>
+			<td style=width:75%>Product</td>
+			<td>Amount</td>
+			<td>Price</td>
+		</tr>
+	 </table>
+</center>
+</body>
+</html>

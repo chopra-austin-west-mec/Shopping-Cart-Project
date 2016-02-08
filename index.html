@@ -10,11 +10,10 @@
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/css.css">
     <link href="http://cdn3.bigcommerce.com/r-7d6a638493d37a4bbc33fd4fe15b95d62daf0227/themes/Clarity2/Styles/styles.css" media="all" type="text/css" rel="stylesheet">
+	<script src="scripts/cookies.js"></script>
+	<script src="scripts/application.js"></script>
 
-	
-</head>
-
-<body>
+<body onload="isFirstTime()">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -70,7 +69,7 @@
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img id="frontPageSlidshow" src="photos\MSI_Radeon_R9_Fury_X_4GB_Video_Card\71Zvnydw2cL._SL1500_.jpg" alt="Chania" height="345px">
+        <img id="frontPageSlidshow" src="photos\MSI_Radeon_R9_Fury_X_4GB_Video_Card\81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="345px">
         <div class="carousel-caption">
           <h3>MSI Radeon R9 Fury X 4GB Video Card</h3>
           <p> </p>
@@ -78,7 +77,7 @@
       </div>
 
       <div class="item">
-        <img id="frontPageSlidshow" src="photos\VisionTek_Radeon_R9_Nano_4GB_Video_Card\61Qn1K4LaSL._SL1200_.jpg" alt="Chania" height="345px">
+        <img id="frontPageSlidshow" src="photos\VisionTek_Radeon_R9_Nano_4GB_Video_Card\61Qn1K4LaSL._SL1200_.jpg" alt="VisionTek Radeon R9 Nano 4GB Video Card" height="345px">
         <div class="carousel-caption">
           <h3>VisionTek Radeon R9 Nano 4GB Video Card</h3>
           <p> </p>
@@ -126,14 +125,14 @@
 
 	<div class="ProductImage" style="height: 205px;">
 		<a href="products/msi/furyX/">
-			<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/71Zvnydw2cL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card"></a>
+			<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card"></a>
 	</div>
 
 	<div class="ProductDetails">
 		<span class="ProductName"><a href="products/msi/furyX/">MSI Radeon R9 Fury X 4GB Video Card</a></span>
 		<span class="ProductPrice">$666.98</span>
 		<span class="ProductActionAdd">
-			<a href="http://store.flitetest.com/cart.php?action=add&amp;product_id=358" class="small button">Add To Cart</a>
+			<a onClick="addProduct('product_1')" class="small button">Add To Cart</a>
 		</span>
 	</div>
 	
@@ -141,13 +140,13 @@
 	<li data-product="353" style="min-height: 366.688px;">
 	
 	<div class="ProductImage" style="height: 205px;"><a href="products/msi/furyX/">
-	<img src="photos/VisionTek_Radeon_R9_Nano_4GB_Video_Card/61Qn1K4LaSL._SL1200_.jpg" alt="Mighty Mini Corsair"></a></div>
+	<img src="photos/VisionTek_Radeon_R9_Nano_4GB_Video_Card/61Qn1K4LaSL._SL1200_.jpg" alt="VisionTek Radeon R9 Nano 4GB Video Card"></a></div>
 	
 	<div class="ProductDetails">
 		<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">VisionTek Radeon R9 Nano 4GB Video Card</a></span>
 		<span class="ProductPrice">$582.06</span>
 		<span class="ProductActionAdd">
-			<a href="cart.php?action=add&amp;product_id=3" class="small button">Add To Cart</a>
+			<a onClick="addProduct('product_2')" class="small button">Add To Cart</a>
 		</span>
 		<span class="ProductRating ProductRating4">
 			<a class="show-reviews rating-4" href="products/msi/furyX/#reviews">
@@ -161,13 +160,13 @@
 	<li data-product="353" style="min-height: 366.688px;">
 	
 	<div class="ProductImage" style="height: 205px;"><a href="http://store.flitetest.com/mighty-mini-corsair/">
-	<img src="photos/XFX_Radeon_R9_Fury_4GB_Triple_Dissipation_Video_Card/81fpc-ONzGL._SL1500_.jpg" alt="Mighty Mini Corsair"></a></div>
+	<img src="photos/XFX_Radeon_R9_Fury_4GB_Triple_Dissipation_Video_Card/81fpc-ONzGL._SL1500_.jpg" alt="XFX Radeon R9 Fury 4GB Triple Dissipation Video Card"></a></div>
 	
 	<div class="ProductDetails">
 		<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">XFX Radeon R9 Fury 4GB Triple Dissipation Video Card</a></span>
 		<span class="ProductPrice">$514.98</span>
 		<span class="ProductActionAdd">
-			<a href="http://store.flitetest.com/cart.php?action=add&amp;product_id=358" class="small button">Add To Cart</a>
+			<a onClick="addProduct('product_3')" class="small button">Add To Cart</a>
 		</span>
 		<span class="ProductRating ProductRating4">
 			<a class="show-reviews rating-0" href="http://store.flitetest.com/mighty-mini-corsair/#reviews">
@@ -182,13 +181,13 @@
 	
 	<div class="ProductImage" style="height: 205px;">
 		<a href="http://store.flitetest.com/mighty-mini-corsair/">
-			<img src="photos/Asus_Radeon_R9_390_8GB_Video_Card/91CO4TAv91L._SL1500_.jpg" alt="Mighty Mini Corsair"></a></div>
+			<img src="photos/Asus_Radeon_R9_390_8GB_Video_Card/91CO4TAv91L._SL1500_.jpg" alt="Asus Radeon R9 390 8GB Video Card"></a></div>
 	
 	<div class="ProductDetails">
 		<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">Asus Radeon R9 390 8GB Video Card</a></span>
 		<span class="ProductPrice">$582.06</span>
 		<span class="ProductActionAdd">
-			<a href="http://store.flitetest.com/cart.php?action=add&amp;product_id=358" class="small button">Add To Cart</a>
+			<a onClick="addProduct('product_4')" class="small button">Add To Cart</a>
 		</span>
 		<span class="ProductRating ProductRating4">
 			<a class="show-reviews rating-4" href="http://store.flitetest.com/mighty-mini-corsair/#reviews">
@@ -203,11 +202,34 @@
 	<ul>
 		<li data-product="353" style="min-height: 366.688px;">
 	
-	<div class="ProductImage" style="height: 205px;"><a href="http://store.flitetest.com/mighty-mini-corsair/"><img src="http://cdn3.bigcommerce.com/s-x9hwh7on/products/353/images/1280/Mini_corsair_selection_web__26038.1449508072.365.365.jpg?c=2" alt="Mighty Mini Corsair"></a></div>
+	<div class="ProductImage" style="height: 205px;">
+		<a href="http://store.flitetest.com/mighty-mini-corsair/">
+			<img src="photos\XFX_Radeon_R9_295X2_8GB_Core_Edition_Video_Card\610F2UQ2ABL._SL1000_.jpg" alt="XFX Radeon R9 295X2 8GB Core Edition Video Card"></a></div>
 	
 	<div class="ProductDetails">
-		<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">VisionTek Radeon R9 Nano 4GB Video Card</a></span>
-		<span class="ProductPrice">$582.06</span>
+		<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">XFX Radeon R9 295X2 8GB Core Edition Video Card</a></span>
+		<span class="ProductPrice">$1,981.13</span>
+		<span class="ProductActionAdd">
+			<a href="http://store.flitetest.com/cart.php?action=add&amp;product_id=358" class="small button">Add To Cart</a>
+		</span>
+		<span class="ProductRating ProductRating4">
+			<a class="show-reviews rating-4" href="http://store.flitetest.com/mighty-mini-corsair/#reviews">
+				<i class="icon-rating-5"></i>
+			</a>
+		</span>
+	</div>
+	
+	<a href="http://store.flitetest.com/mighty-mini-corsair/" class="overlay-link"></a>
+		</li>
+		<li data-product="353" style="min-height: 366.688px;">
+	
+	<div class="ProductImage" style="height: 205px;">
+		<a href="http://store.flitetest.com/mighty-mini-corsair/">
+			<img src="photos\MSI_Radeon_R9_290X_4GB_TWIN_FROZR_Video_Card\61e4IiM1wGL._SL1000_.jpg" alt="MSI Radeon R9 290X 4GB TWIN FROZR Video Card"></a></div>
+	
+	<div class="ProductDetails">
+		<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">MSI Radeon R9 290X 4GB TWIN FROZR Video Card</a></span>
+		<span class="ProductPrice">$495.02</span>
 		<span class="ProductActionAdd">
 			<a href="http://store.flitetest.com/cart.php?action=add&amp;product_id=358" class="small button">Add To Cart</a>
 		</span>
@@ -222,30 +244,13 @@
 		</li>
 		<li data-product="353" style="min-height: 366.688px;">
 	
-	<div class="ProductImage" style="height: 205px;"><a href="http://store.flitetest.com/mighty-mini-corsair/"><img src="http://cdn3.bigcommerce.com/s-x9hwh7on/products/353/images/1280/Mini_corsair_selection_web__26038.1449508072.365.365.jpg?c=2" alt="Mighty Mini Corsair"></a></div>
+	<div class="ProductImage" style="height: 205px;">
+		<a href="http://store.flitetest.com/mighty-mini-corsair/">
+			<img src="photos\Diamond_Radeon_R9_290X_4GB_Video_Card\618Jgfj7enL._SL1000_.jpg" alt="Diamond Radeon R9 290X 4GB Video Card"></a></div>
 	
 	<div class="ProductDetails">
-		<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">VisionTek Radeon R9 Nano 4GB Video Card</a></span>
-		<span class="ProductPrice">$582.06</span>
-		<span class="ProductActionAdd">
-			<a href="http://store.flitetest.com/cart.php?action=add&amp;product_id=358" class="small button">Add To Cart</a>
-		</span>
-		<span class="ProductRating ProductRating4">
-			<a class="show-reviews rating-4" href="http://store.flitetest.com/mighty-mini-corsair/#reviews">
-				<i class="icon-rating-4"></i>
-			</a>
-		</span>
-	</div>
-	
-	<a href="http://store.flitetest.com/mighty-mini-corsair/" class="overlay-link"></a>
-		</li>
-		<li data-product="353" style="min-height: 366.688px;">
-	
-	<div class="ProductImage" style="height: 205px;"><a href="http://store.flitetest.com/mighty-mini-corsair/"><img src="http://cdn3.bigcommerce.com/s-x9hwh7on/products/353/images/1280/Mini_corsair_selection_web__26038.1449508072.365.365.jpg?c=2" alt="Mighty Mini Corsair"></a></div>
-	
-	<div class="ProductDetails">
-		<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">VisionTek Radeon R9 Nano 4GB Video Card</a></span>
-		<span class="ProductPrice">$582.06</span>
+		<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">Diamond Radeon R9 290X 4GB Video Card</a></span>
+		<span class="ProductPrice">$641.81</span>
 		<span class="ProductActionAdd">
 			<a href="http://store.flitetest.com/cart.php?action=add&amp;product_id=358" class="small button">Add To Cart</a>
 		</span>
@@ -260,10 +265,11 @@
 		</li>
 		<li data-product="353" style="min-height: 366.688px;">
 			
-			<div class="ProductImage" style="height: 205px;"><a href="http://store.flitetest.com/mighty-mini-corsair/"><img src="http://cdn3.bigcommerce.com/s-x9hwh7on/products/353/images/1280/Mini_corsair_selection_web__26038.1449508072.365.365.jpg?c=2" alt="Mighty Mini Corsair"></a></div>
+			<div class="ProductImage" style="height: 205px;"><a href="http://store.flitetest.com/mighty-mini-corsair/">
+			<img src="photos\MSI_Radeon_R9_290X_4GB_LIGHTNING_Video_Card\611KZ3ss6fL._SL1000_.jpg" alt="MSI Radeon R9 290X 4GB LIGHTNING Video Card"></a></div>
 			
 			<div class="ProductDetails">
-				<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">VisionTek Radeon R9 Nano 4GB Video Card</a></span>
+				<span class="ProductName"><a href="http://store.flitetest.com/mighty-mini-corsair/">MSI Radeon R9 290X 4GB LIGHTNING Video Card</a></span>
 				<span class="ProductPrice">$582.06</span>
 				<span class="ProductActionAdd">
 					<a href="http://store.flitetest.com/cart.php?action=add&amp;product_id=358" class="small button">Add To Cart</a>
