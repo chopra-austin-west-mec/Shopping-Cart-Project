@@ -57,7 +57,7 @@
 <br>
 <br> 
 <center>
-	<table border="1" width="100%">
+	<table>
 		<tr>
 			<td style=width:75%>Product</td>
 			<td>Amount</td>

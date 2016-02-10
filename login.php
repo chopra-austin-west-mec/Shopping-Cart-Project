@@ -106,7 +106,7 @@ if(@$_POST['formSubmit'] == "Submit")
       </ul>
       <ul class="nav navbar-nav navbar-right">
 		<li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a></li>
-        <li><a href="examples/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>

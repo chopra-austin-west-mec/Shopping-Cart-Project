@@ -14,7 +14,7 @@ function isFirstTime() {
   else{
     console.log("this is their first time");
     document.cookie = "firstTime=NO";
-    document.cookie = "userId=" + (Math.random() * 2 / 3 * 45);
+    document.cookie = "userId=" + (Math.random() * 3  * Math.random() * 6 * Math.random() * 8 );
     
     document.cookie = "product_1=0";
     document.cookie = "product_2=0";
