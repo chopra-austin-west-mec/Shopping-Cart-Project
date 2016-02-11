@@ -27,6 +27,8 @@ function isFirstTime() {
     document.cookie = "product_9=0";
     document.cookie = "product_10=0";
     document.cookie = "product_11=0";
+    document.cookie = "product_12=0";
+    document.cookie = "product_13=0";
   }
 }
 
