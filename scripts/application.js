@@ -21,3 +21,59 @@ function removeProduct(productId) {
     console.log(numberOfProducts);
     document.cookie = productId + "=" + numberOfProducts ;
 }
+
+function pullCart() {
+    product_1 = getCookie('product_1')
+    product_2 = getCookie('product_2')
+    product_3 = getCookie('product_3')
+    product_4 = getCookie('product_4')
+    product_5 = getCookie('product_5')
+    product_6 = getCookie('product_6')
+    product_7 = getCookie('product_7')
+    product_8 = getCookie('product_8')
+    product_9 = getCookie('product_9')
+    product_10 = getCookie('product_10')
+    product_11 = getCookie('product_11')
+    product_12 = getCookie('product_12')
+    product_13 = getCookie('product_13')
+    
+    console.log(product_1)
+    console.log(product_2)
+    console.log(product_3)
+    console.log(product_4)
+    console.log(product_5)
+    console.log(product_6)
+    console.log(product_7)
+    console.log(product_8)
+    console.log(product_9)
+    console.log(product_10)
+    console.log(product_11)
+    console.log(product_12)
+    console.log(product_13)
+    
+    if (product_1 > 0) {
+        var createTable = document.createElement("TR");
+        
+        var node = document.createElement("TD");
+        var textnode = document.createTextNode('');
+        
+        node.appendChild(textnode);                                     
+        createTable.appendChild(node);
+        document.getElementById("cartList").appendChild(createTable);
+        node.setAttribute("id", "product1");
+        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        
+        var node = document.createElement("TD");                        //First create an TD node
+        var textnode = document.createTextNode(product_1);            //then create a Text node
+        node.appendChild(textnode);                                     //then append the Text node to the TD node
+        createTable.appendChild(node);
+        document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
+        
+        var node = document.createElement("TD");                        //First create an TD node
+        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        node.appendChild(textnode);                                     //then append the Text node to the TD node
+        createTable.appendChild(node);
+        document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
+        
+    }
+}

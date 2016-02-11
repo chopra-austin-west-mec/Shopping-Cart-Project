@@ -7,15 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/css.css" type="text/css">
-	
-    <link href="http://cdn3.bigcommerce.com/r-7d6a638493d37a4bbc33fd4fe15b95d62daf0227/themes/Clarity2/Styles/styles.css" media="all" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="scripts/cookies.js"></script>
 	<script src="scripts/application.js"></script>
 	
 </head>
 
-<body onload="isFirstTime()">
+<body onload="pullCart()">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -57,12 +55,13 @@
 <br>
 <br> 
 <center>
-	<table>
+	<table style=width:75% id="cartList">
 		<tr>
 			<td style=width:75%>Product</td>
 			<td>Amount</td>
 			<td>Price</td>
 		</tr>
+		
 	 </table>
 </center>
 </body>
