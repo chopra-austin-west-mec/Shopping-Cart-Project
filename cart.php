@@ -63,6 +63,12 @@
 		</tr>
 		
 	 </table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h3 id="noProducts"></h3>
+	
 </center>
 </body>
 </html>
