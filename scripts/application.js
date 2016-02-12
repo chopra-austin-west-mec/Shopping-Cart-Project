@@ -1,11 +1,10 @@
-
-function addProduct(productId){
+function addProduct(productId, amount){
     
     console.log(productId);
     getCookieVal = getCookie(productId);
     console.log(getCookieVal);
     getCookieVal = getCookieVal.split("=");
-    numberOfProducts = Number(getCookieVal) + 1;
+    numberOfProducts = Number(getCookieVal) + amount;
     console.log(numberOfProducts);
     document.cookie = productId + "=" + numberOfProducts ;
     
@@ -92,7 +91,7 @@ function pullCart() {
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
         node.setAttribute("id", "product2");
-        document.getElementById("product2").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        document.getElementById("product2").innerHTML = '<img src="photos/VisionTek_Radeon_R9_Nano_4GB_Video_Card/61Qn1K4LaSL._SL1200_.jpg" alt="VisionTek Radeon R9 Nano 4GB Video Card" height="180px"></a>VisionTek Radeon R9 Nano 4GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode(product_2);            //then create a Text node
@@ -101,7 +100,7 @@ function pullCart() {
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_2 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_2 * 582.06 );            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
