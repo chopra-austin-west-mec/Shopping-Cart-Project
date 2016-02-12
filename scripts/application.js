@@ -51,6 +51,11 @@ function pullCart() {
     console.log(product_12)
     console.log(product_13)
     
+    
+    if (product_1 == 0 && product_2 == 0 && product_3 == 0 && product_4 == 0 && product_5 == 0 && product_6 == 0 && product_7 == 0 && product_8 == 0 && product_9 == 0 && product_10 == 0 && product_11 == 0 && product_12 == 0 && product_13 == 0) {
+        document.getElementById("noProducts").innerHTML = 'There are no products in your cart.';
+    }
+    
     if (product_1 > 0) {
         var createTable = document.createElement("TR");
         
