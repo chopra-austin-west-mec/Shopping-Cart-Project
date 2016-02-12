@@ -48,7 +48,7 @@ function getCookie(cname) {
 
 function grabAllCookies() {
   var numberOfCookies = getCookie("numberOfCookies");
-  console.log("grabbing  all cookies")
+  console.log("stealing all the cookies")
   
   for (i = 0; i < numberOfCookies; i++) {
     var productCookie = 'product' + (i +1);
