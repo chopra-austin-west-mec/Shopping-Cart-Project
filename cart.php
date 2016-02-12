@@ -57,9 +57,9 @@
 <center>
 	<table style=width:75% id="cartList">
 		<tr>
-			<td style=width:75%>Product</td>
-			<td>Amount</td>
-			<td>Price</td>
+			<td style=width:75%><h4>Product</h4></td>
+			<td><h4>Amount</h4></td>
+			<td><h4>Price</h4></td>
 		</tr>
 		
 	 </table>

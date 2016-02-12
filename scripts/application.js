@@ -116,17 +116,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product3");
+        document.getElementById("product3").innerHTML = '<img src="photos/XFX_Radeon_R9_Fury_4GB_Triple_Dissipation_Video_Card/81fpc-ONzGL._SL1500_.jpg" alt="XFX Radeon R9 Fury 4GB Triple Dissipation Vid" height="180px"></a>XFX Radeon R9 Fury 4GB Triple Dissipation Vid'
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_3);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_3 * 514.98);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -142,17 +142,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product4");
+        document.getElementById("product4").innerHTML = '<img src="photos/Asus_Radeon_R9_390_8GB_Video_Card/91CO4TAv91L._SL1500_.jpg" alt="Asus Radeon R9 390 8GB Video Card" height="180px"></a>Asus Radeon R9 390 8GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_4);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_4 * 481.92);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -168,17 +168,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product5");
+        document.getElementById("product5").innerHTML = '<img src="photos/XFX_Radeon_R9_295X2_8GB_Core_Edition_Video_Card/610F2UQ2ABL._SL1000_.jpg" alt="XFX Radeon R9 295X2 8GB Core Edition Video Card" height="180px"></a>XFX Radeon R9 295X2 8GB Core Edition Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_5);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_5 * 1981.13);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -194,17 +194,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product6");
+        document.getElementById("product6").innerHTML = '<img src="photos/MSI_Radeon_R9_290X_4GB_TWIN_FROZR_Video_Card/61e4IiM1wGL._SL1000_.jpg" alt="MSI Radeon R9 290X 4GB TWIN FROZR Video Card" height="180px"></a>MSI Radeon R9 290X 4GB TWIN FROZR Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_6);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_6 * 495.02);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -220,17 +220,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product7");
+        document.getElementById("product7").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_7);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_7 * 666.98);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -246,17 +246,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product8");
+        document.getElementById("product8").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_8);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_8 * 666.98);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -272,17 +272,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product9");
+        document.getElementById("product9").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_9);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_9 * 666.98);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -298,17 +298,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product10");
+        document.getElementById("product10").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_10);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_10 * 666.98);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -324,17 +324,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product11");
+        document.getElementById("product11").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_11);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_11 * 666.98);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -350,17 +350,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product12");
+        document.getElementById("product12").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_12);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_12 * 666.98);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -376,17 +376,17 @@ function pullCart() {
         node.appendChild(textnode);                                     
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
-        node.setAttribute("id", "product1");
-        document.getElementById("product1").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        node.setAttribute("id", "product13");
+        document.getElementById("product13").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode(product_1);            //then create a Text node
+        var textnode = document.createTextNode(product_13);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_13 * 666.98);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
