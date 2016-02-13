@@ -377,7 +377,7 @@ function pullCart() {
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
         node.setAttribute("id", "product13");
-        document.getElementById("product13").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        document.getElementById("product13").innerHTML = 'photos\MSI_Radeon_R9_290X_4GB_LIGHTNING_Video_Card\611KZ3ss6fL._SL1000_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode(product_13);            //then create a Text node
