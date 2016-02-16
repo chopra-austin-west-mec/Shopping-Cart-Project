@@ -221,7 +221,7 @@ function pullCart() {
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
         node.setAttribute("id", "product7");
-        document.getElementById("product7").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        document.getElementById("product7").innerHTML = '<img src="photos/Diamond_Radeon_R9_290X_4GB_Video_Card/618Jgfj7enL._SL1000_.jpg" alt="Diamond Radeon R9 290X 4GB Video Card" height="180px"></a>Diamond Radeon R9 290X 4GB Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode(product_7);            //then create a Text node
@@ -230,7 +230,7 @@ function pullCart() {
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_7 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_7 * 641.81);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
@@ -247,7 +247,7 @@ function pullCart() {
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);
         node.setAttribute("id", "product8");
-        document.getElementById("product8").innerHTML = '<img src="photos/MSI_Radeon_R9_Fury_X_4GB_Video_Card/81ki9sRvWLL._SL1500_.jpg" alt="MSI Radeon R9 Fury X 4GB Video Card" height="180px"></a>MSI Radeon R9 Fury X 4GB Video Card '
+        document.getElementById("product8").innerHTML = '<img src="photos/MSI_Radeon_R9_290X_4GB_LIGHTNING_Video_Card/611KZ3ss6fL._SL1000_.jpg" alt="MSI Radeon R9 290X 4GB LIGHTNING Video Card" height="180px"></a>MSI Radeon R9 290X 4GB LIGHTNING Video Card '
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode(product_8);            //then create a Text node
@@ -256,7 +256,7 @@ function pullCart() {
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
-        var textnode = document.createTextNode("$" + product_8 * 666.98);            //then create a Text node
+        var textnode = document.createTextNode("$" + product_8 * 625.06);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
