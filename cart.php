@@ -64,6 +64,8 @@
 		
 	 </table>
 	<br>
+	<div id="amount"></div>
+	<div id="price"></div>
 	<br>
 	<br>
 	<br>
