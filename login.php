@@ -17,7 +17,7 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <?php
 try {
-    $dbh = new PDO('mysql:host=127.0.0.1;dbname=Checkout', 'root', '');
+    $dbh = new PDO('mysql:host=127.0.0.1;dbname=Checkout', 'root', 'root');
 
 } catch (PDOException $e) {
     print "Error!: " . $e->getMessage() . "<br/>";
