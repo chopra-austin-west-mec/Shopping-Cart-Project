@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="scripts/cookies.js"></script>
 	<script src="scripts/application.js"></script>
+	<link rel="stylesheet" href="loginCSS.css">
 	
 </head>
 
@@ -44,7 +45,7 @@
             <li><a href="#">3D Prints</a></li>
           </ul>
         </li>
-      </ul>
+      </ul> 
       <ul class="nav navbar-nav navbar-right">
 		<li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a></li>
         <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -57,9 +58,9 @@
 <center>
 	<table style=width:75% id="cartList">
 		<tr>
-			<td style=width:75%><h4>Product</h4></td>
-			<td><h4>Amount</h4></td>
-			<td><h4>Price</h4></td>
+			<td style=width:75%><center><h4>Product</h4></center></td>
+			<td><center><h4>Amount</h4></center></td>
+			<td><center>         <h4>Price</h4></center></td>
 		</tr>
 		
 	 </table>
