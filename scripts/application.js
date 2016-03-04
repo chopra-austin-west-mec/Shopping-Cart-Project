@@ -71,12 +71,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_1);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_1 * 666.98);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -97,12 +99,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_2);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_2 * 582.06 );            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -123,12 +127,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_3);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_3 * 514.98);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -149,12 +155,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_4);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_4 * 481.92);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -175,12 +183,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_5);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_5 * 1981.13);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -201,12 +211,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_6);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_6 * 495.02);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -227,12 +239,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_7);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_7 * 641.81);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -253,12 +267,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_8);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_8 * 625.06);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -279,12 +295,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_9);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_9 * 2499.00);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -305,12 +323,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_10);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_10 * 2999.00);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -331,12 +351,14 @@ function pullCart() {
         var textnode = document.createTextNode(product_11);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_11 * 2599.00);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
@@ -357,17 +379,20 @@ function pullCart() {
         var textnode = document.createTextNode(product_12);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "ammount");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
         var node = document.createElement("TD");                        //First create an TD node
         var textnode = document.createTextNode("$" + product_12 * 2899.99);            //then create a Text node
         node.appendChild(textnode);                                     //then append the Text node to the TD node
         createTable.appendChild(node);
+        node.setAttribute("id", "price");
         document.getElementById("cartList").appendChild(createTable);  //Finally append the TD node to the table
         
     }
     
-    document.getElementById("amount").innerHTML = Number(product_1) + Number(product_2) + Number(product_3) + Number(product_4) + Number(product_5) + Number(product_6) + Number(product_7) + Number(product_8) + Number(product_9) + Number(product_10) + Number(product_11) + Number(product_12)
+    document.getElementById("amount").innerHTML = "Number of Items: " + (Number(product_1) + Number(product_2) + Number(product_3) + Number(product_4) + Number(product_5) + Number(product_6) + Number(product_7) + Number(product_8) + Number(product_9) + Number(product_10) + Number(product_11) + Number(product_12))
+    document.getElementById("priceAmount").innerHTML = "Price: $" +( (Number(product_1) * 666.98) + (Number(product_2) * 582.06) + (Number(product_3) * 514.98) + (Number(product_4) * 481.92) + Number(product_5) + Number(product_6) + Number(product_7) + Number(product_8) + Number(product_9) + Number(product_10) + Number(product_11) + Number(product_12))
     
 }
 

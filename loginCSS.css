@@ -1,3 +1,8 @@
+#price, #ammount{
+    text-align: center;
+}
+
+
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
@@ -52,7 +57,7 @@ h4 {
     color: darkwhite;
 }
 .carousel-indicators li {
-    border-color: pink;
+    border-color: black;
 }
 .carousel-indicators li.active {
     background-color: white;
