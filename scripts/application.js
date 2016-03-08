@@ -392,7 +392,7 @@ function pullCart() {
     }
     
     document.getElementById("amount").innerHTML = "Number of Items: " + (Number(product_1) + Number(product_2) + Number(product_3) + Number(product_4) + Number(product_5) + Number(product_6) + Number(product_7) + Number(product_8) + Number(product_9) + Number(product_10) + Number(product_11) + Number(product_12))
-    document.getElementById("priceAmount").innerHTML = "Price: $" +( (Number(product_1) * 666.98) + (Number(product_2) * 582.06) + (Number(product_3) * 514.98) + (Number(product_4) * 481.92) + Number(product_5) + Number(product_6) + Number(product_7) + Number(product_8) + Number(product_9) + Number(product_10) + Number(product_11) + Number(product_12))
+    document.getElementById("priceAmount").innerHTML = "Price: $" +( (Number(product_1) * 666.98) + (Number(product_2) * 582.06) + (Number(product_3) * 514.98) + (Number(product_4) * 481.92) + (Number(product_5) * 1981.13) + (Number(product_6) * 495.02) + (Number(product_7) * 641.81) + (Number(product_8) * 625.06) + (Number(product_9) * 2499.00) + (Number(product_10) * 2999.00) + (Number(product_11) * 2599.00) + (Number(product_12) * 2899.99))
     
 }
 
